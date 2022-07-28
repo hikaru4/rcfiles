@@ -1,0 +1,37 @@
+! mapping capslock to ctrl
+clear lock
+clear control
+
+! remap keycode 66 (CapsLock) to Control_L
+keycode 66 = Control_L
+
+add control = Control_L Control_R
+
+! remap keycode 108 (Alt_R) to Mode_switch
+keycode 108 = Mode_switch
+
+! remap keycode 43~46 (h j k l)
+keycode 43 = h H Left
+keycode 44 = j J Down
+keycode 45 = k K Up
+keycode 46 = l L Right
+keycode 47 = semicolon colon Escape
+
+! remap keycode 57~60 (n m , .)
+keycode 57 = n N Home
+keycode 58 = m M Next
+keycode 59 = comma less Prior 
+keycode 60 = period greater End
+
+! remap keycode 31 32 (i o)
+keycode 31 = i I Delete
+keycode 32 = o O BackSpace
+
+! remap keycode 34 35 ([ ])
+keycode 34 = bracketleft braceleft XF86Back
+keycode 35 = bracketright braceright XF86Forward
+
+! remap keycode 113 114 (Left Right)
+keycode 113 = Left NoSymbol XF86Back
+keycode 114 = Right NoSymbol XF86Forward
+

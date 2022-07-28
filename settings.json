@@ -1,0 +1,75 @@
+{
+    // format file on save 
+    // ref: https://stackoverflow.com/questions/39494277/how-do-you-format-code-on-save-in-vs-code
+    "editor.formatOnSave": true,
+    // fix keymap problem
+    // ref: https://github.com/Microsoft/vscode/wiki/Keybinding-Issues#troubleshoot-linux-keybindings
+    "keyboard.dispatch": "keyCode",
+    "window.zoomLevel": 0,
+    // python lint
+    "python.linting.flake8Enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.pycodestyleEnabled": false,
+    // vim
+    "vim.startInInsertMode": true,
+    "vim.useSystemClipboard": true,
+    "vim.handleKeys": {
+        // copy paste
+        "<C-c>": false,
+        "<C-v>": false,
+        // save
+        "<C-s>": false,
+        // close editor
+        "<C-w>": false,
+        "<C-q>": false,
+        // find, search
+        "<C-f>": false,
+        // select all
+        "<C-a>": false,
+    },
+    // gitlab
+    "gitlab.instanceUrl": "http://gitlab.local.bridgewell.com",
+    // gitlab mr
+    "gitlab-mr.accessTokens": {
+        "http://gitlab.local.bridgewell.com": "Th6caRnBxXRs6_j2P1Me"
+    },
+    //docker
+    "docker.defaultRegistry": "registry.local.bridgewell.com",
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "gitlens.historyExplorer.enabled": true,
+    "markdownlint.config": {
+        "MD013": false,
+        "MD007": {
+            "indent": 4
+        },
+        "MD030": {
+            "ul_single": 3,
+            "ol_single": 2,
+            "ul_multi": 3,
+            "ol_multi": 2,
+        },
+        "MD034": false
+    },
+    "gitlens.views.fileHistory.enabled": true,
+    "gitlens.views.lineHistory.enabled": true,
+    "docker.defaultRegistryPath": "registry.local.bridgewell.com/registry.local.bridgewell.com/registry.local.bridgewell.com/registry.local.bridgewell.com/registry.local.bridgewell.com/registry.local.bridgewell.com/registry.local.bridgewell.com/registry.local.bridgewell.com/registry.local.bridgewell.com/registry.local.bridgewell.com/registry.local.bridgewell.com/registry.local.bridgewell.com/registry.local.bridgewell.com/registry.local.bridgewell.com/registry.local.bridgewell.com/registry.local.bridgewell.com/registry.local.bridgewell.com/registry.local.bridgewell.com",
+    "breadcrumbs.enabled": true,
+    "files.autoGuessEncoding": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "sourcegraph.url": "http://2u050:7080",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "go.useLanguageServer": true,
+    "[html]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "explorer.confirmDelete": false,
+    "[json]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+}
